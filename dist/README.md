@@ -1,10 +1,10 @@
 
-   # Beans
+   # README-generator Example
    
-   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+   ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
    
    ## Description 
-   okay
+   This is a quick tutorial of what the description could be
 
    ## Table of Contents
     - [Description](#description)
@@ -16,21 +16,21 @@
     - [Support]
   
    ## Installation 
-   okay
+   First read the README.md
 
    ## Usage
-   okay
+   This would be an excellent example to showcase this application.
 
    ## License
-   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+   ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
     <br />
-    This application uses the MIT license. 
+    This application uses the Mozilla license. 
   
    ## Contributing
-   okay
+   You can always ask me or something
 
    ## Tests
-   okay
+   Tests would be nice
 
    ## Support
     Email me with any questions @fakeeamil.com
