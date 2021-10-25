@@ -107,9 +107,15 @@ const writeFileAsync = util.promisify(writeToFile);
 function init() {
     try {
         const userResponses = await inquirer.prompt(questions);
-        
+
+        const markdown = generateMarkdown(userResponses);
+        console.log(markdown);
+
+        await writeFileAsync('README.md', markdown);
+    } catch (error) {
+        console.log(err);
     }
-}
+};
 
 // Function call to initialize app
 init();
