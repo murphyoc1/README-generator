@@ -4,7 +4,7 @@
    ![badge](https://img.shields.io/badge/license-MIT License-brightgreen)<br />
    
    ## Description 
-   Project Description
+   Well it's complicated
 
    ## Table of Contents
     - [Description](#description)
@@ -16,10 +16,10 @@
     - [Support]
   
    ## Installation 
-   Nah
+   N/A
 
    ## Usage
-   okay
+   Usage to build a usable README.md
 
    ## License
    ![badge](https://img.shields.io/badge/license-MIT License-brightgreen)
@@ -27,10 +27,10 @@
     This application uses the MIT License license. 
   
    ## Contributing
-   okayya
+   check it out yourself!
 
    ## Tests
-   ya
+   Not sure yet!
 
    ## Support
     Email me with any questions @fakeeamil.com
