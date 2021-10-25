@@ -11,7 +11,7 @@ const questions = [
         type: 'input',
         message: "What is your GitHub username? (No @ needed)",
         name: 'username',
-        default: 'connietran-dev',
+        default: 'murphyoc',
         validate: githubInput => {
             if (githubInput) {
                 return true;
@@ -25,7 +25,7 @@ const questions = [
         type: 'input',
         message: "What is the name of your GitHub repo?",
         name: 'repo',
-        default: 'readme-generator',
+        default: 'README-generator',
         validate: repoInput => {
             if (repoInput) {
                 return true;
@@ -86,7 +86,7 @@ const questions = [
     {
         type: 'list',
         message: "Choose a license for your project.",
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'Boost Software License 1.0', 'The Unlicense', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License'],
+        choices: ['AGPLv3', 'GPLv3', 'Unlicense', 'LGPLv3', 'Mozilla', 'Apache', 'MIT', 'GNU', 'Open'],
         name: 'license'
     }
 ];
