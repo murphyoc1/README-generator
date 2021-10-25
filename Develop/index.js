@@ -62,15 +62,54 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'input',
+        message: "Describe extra steps to help with installation.",
+        name: 'installation'
+    },
+    {
+        type: 'input',
+        message: "Provide an example of your project's usage.",
+        name: 'usage'
+    },
+    {
+        type: 'input',
+        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
+        name: 'contributing'
+    },
+    {
+        type: 'input',
+        message: "If applicable, provide any tests written for your application.",
+        name: 'tests'
+    },
+    {
+        type: 'list',
+        message: "Choose a license for your project.",
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'Boost Software License 1.0', 'The Unlicense', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License'],
+        name: 'license'
     }
 ];
 
-
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if(err) {
+            return console.log(err);
+        }
+        console.log("Your README.md file has ben generated!")
+    });
+}
+
+const writeFileAsync = util.promisify(writeToFile);
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    try {
+        const userResponses = await inquirer.prompt(questions);
+        
+    }
+}
 
 // Function call to initialize app
 init();
