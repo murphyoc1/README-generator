@@ -1,10 +1,10 @@
 
-   # Project Title
+   # Team Profile Generator
    
-   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+   ![badge](https://img.shields.io/badge/license-Unlicense-brightgreen)<br />
    
    ## Description 
-   this can be anything to describe it
+   The team profile generator takes in your team members information and creates a HTML webpage that summaries each person of your group. You will have access to team structure, names, email addresse, and GitHub profiles.
 
    ## Table of Contents
     - [Description](#description)
@@ -16,21 +16,21 @@
     - [Support]
   
    ## Installation 
-   check out the READme
+   Must have Inquierer and Jest Packages
 
    ## Usage
-   any README
+   run index.js and follow the prompts
 
    ## License
-   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+   ![badge](https://img.shields.io/badge/license-Unlicense-brightgreen)
     <br />
-    This application uses the MIT license. 
+    This application uses the Unlicense license. 
   
    ## Contributing
-   reach me via email
+   Reach out for any inquires.
 
    ## Tests
-   no tests
+   Tests for the project include a Employee, Engineer, Intern, and Manager constructor function tests. 
 
    ## Support
     Email me with any questions @fakeeamil.com
