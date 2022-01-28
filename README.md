@@ -11,3 +11,7 @@ Upon completion of your inputs you will be left with a beautiful and user friend
 - Make sure you have the npm files installed for 'inquire'
 
 The output of your finished README.md file is in the dist folder.
+
+run in the command line
+
+<node index.js>

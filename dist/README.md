@@ -1,10 +1,10 @@
 
-   # Team Profile Generator
+   # Social Network API
    
-   ![badge](https://img.shields.io/badge/license-Unlicense-brightgreen)<br />
+   ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
    
    ## Description 
-   The team profile generator takes in your team members information and creates a HTML webpage that summaries each person of your group. You will have access to team structure, names, email addresse, and GitHub profiles.
+   AS A social media startup
 
    ## Table of Contents
     - [Description](#description)
@@ -16,21 +16,21 @@
     - [Support]
   
    ## Installation 
-   Must have Inquierer and Jest Packages
+   SO THAT my website can handle large amounts of unstructured data
 
    ## Usage
-   run index.js and follow the prompts
+   GIVEN a social network API
 
    ## License
-   ![badge](https://img.shields.io/badge/license-Unlicense-brightgreen)
+   ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)
     <br />
-    This application uses the Unlicense license. 
+    This application uses the Mozilla license. 
   
    ## Contributing
-   Reach out for any inquires.
+   THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
    ## Tests
-   Tests for the project include a Employee, Engineer, Intern, and Manager constructor function tests. 
+   N/A
 
    ## Support
     Email me with any questions @fakeeamil.com
